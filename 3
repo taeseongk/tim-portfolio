@@ -1,0 +1,45 @@
+import { RxCornerTopLeft, RxCornerBottomRight, RxCornerTopRight, RxCornerBottomLeft } from "react-icons/rx";
+
+export default function Main() {
+    return (
+        <section className="w-full h-screen pt-1">
+            <div className="mx-auto flex flex-col h-full mt-16 px-4">
+                {/*<div className="flex justify-between">
+                    <RxCornerTopLeft
+                        size={70}
+                        color="white"
+                    />
+                    <RxCornerTopRight
+                        size={70}
+                        color="white"
+                    />
+                </div>*/}
+
+                <div className="flex flex-col justify-center px-14">
+                    <h3 className="text-3xl text-writing font-NTR">hello, my name is . . . </h3>
+                    <h2 className="text-5xl text-quaternary font-small font-NTR mt-12">Tim Kim</h2>
+                    <h2 className="text-4xl text-quaternary font-small font-NTR mt-5">
+                        I am anspiring software engineer.
+                    </h2>
+                    <p className="text-sm text-writing font-NTR leading-6 mt-10">
+                        I am currently a fourth-year undergraduate student at
+                        <span className="text-quaternary"> UCSB </span>
+                        undertaking a Bachelor's of Science in Computer Engineering.
+                    </p>
+                </div>
+                {/*<div className="flex justify-between">
+                    <RxCornerBottomLeft
+                        size={70}
+                        color="white"
+                    />
+                    <RxCornerBottomRight
+                        size={70}
+                        color="white"
+                    />
+                </div>*/}
+
+            </div>
+        </section>
+
+    );
+}
